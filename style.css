@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+pre{
+    max-width: 95%;
+}
+span{
+    max-width: 95%;
+}
+.boxImg{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+img{
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+}
+.nameBot{
+    margin: 0 20px 0 20px;
+    color: #fff;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.boxChat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 90%;
+    background-color: rgba(23, 20, 207, 0.4);
+    border-radius: 4px;
+}
+.userGpt{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 20%;
+    background-color: #3c48ea;
+    box-shadow: 0px 2px 35px -7px #464545;
+    z-index: 3;
+    border-radius: 4px;
+}
+.windowChat{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #646cdd;
+}
+.sendMessage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    background-color: #646cdd;
+    z-index: 3;
+    border-radius: 4px;
+}
+
+.question{
+    width: 80%;
+    height: 80%;
+    padding: 10px 0 0 10px;
+    border-radius: 25px;
+    resize:none;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #333fe6;
+}
+.send{
+    display: flex;
+    align-items: center;
+    width: 7%;
+    height: 40%;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #333fe6;
+
+
+}
+.message{
+    display: flex;
+    position: relative;
+
+    justify-content: flex-end !important;
+    width: 100%;
+    height: auto;
+
+}
+.myMessage{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(28 103 255);
+    color: #fff;
+}
+.message2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start !important;
+    width: 100%;
+    height: auto;
+    
+
+}
+.messageBot{
+    text-align: start;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(55, 48, 243);
+    color: #fff;
+    white-space: break-spaces;
+}
+.time{
+    position: absolute;
+    right: 10px;
+    bottom: -6px;
+    font-size: 12px;
+    color: #272625;
+}
+.time2{
+    position: absolute;
+    left: 10px;
+    bottom: -6px;
+    font-size: 12px;
+    color: #272625;
+}
+
+
+
